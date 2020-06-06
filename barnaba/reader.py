@@ -25,7 +25,7 @@ class Names:
                     "G","rG","RG","RG5","RG3","G3","G5",\
                     "A","rA","RA","RA5","RA3","A3","A5"]
     
-    rna_special = ["2MG","H2U","OMC","YG","PSU","5MC","7MG","1MA","OMU","OMG","UR3","1MG","5MU"]
+    rna_special = ["2MG","H2U","OMC","YG","PSU","5MC","7MG","1MA","OMU","OMG","UR3","1MG","5MU","I6A","OIA","SIA"]
 
     dna_residues = ["T","dT","DT","DT5","DT3","dC","DC","DC5","DC3",\
                     "dG","DG","DG5","DG3","dA","DA","DA5","DA3"]
@@ -41,7 +41,7 @@ class Names:
     residue_dict = {'U': 'U', 'rU':'U','RU':'U','RU5':'U','RU3':'U','U3':'U','U5':'U',\
                         'H2U':'U','PSU':'U','OMU':'U','UR3':'U','5MU':'U',\
                         'A': 'A', 'rA':'A','RA':'A','RA5':'A','RA3':'A','A3':'A','A5':'A',\
-                        '1MA':'A',\
+                        '1MA':'A','I6A':'A','OIA':'A','SIA':'A'\
                         'C': 'C', 'rC':'C','RC':'C','RC5':'C','RC3':'C','C3':'C','C5':'C',\
                         'OMC':'C','5MC':'C',\
                         'G': 'G', 'rG':'G','RG':'G','RG5':'G','RG3':'G','G3':'G','G5':'G',\
